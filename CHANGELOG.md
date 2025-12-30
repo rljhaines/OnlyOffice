@@ -162,7 +162,7 @@
 * Added support for woff2 fonts
 * Added the Suggest a Feature item to the editors File menu
 * Added AI, Photo Editor, OCR, Typograf, Doc2md, LanguageTool, DeepL,
-  Thesaurus and Zotero plugins to the distribution with ONLYOFFICE branding
+  Thesaurus and Zotero plugins to the distribution with OnlyOffice branding
 * Added creation of a marker file blocking when opening documents in other applications
 
 #### Document Editor
@@ -1174,7 +1174,7 @@
   cleaning and a new installation (Linux)
 * Fixed crash of the application when launching, if reconnection via RDP occurs (Windows)
 * Fixed mixed up icons of shortcuts for creating a Document/Spreadsheet in
-  the Start menu (MSI package) [#1627](https://github.com/ONLYOFFICE/DesktopEditors/issues/1627)
+  the Start menu (MSI package) [#1627](https://github.com/OnlyOffice/DesktopEditors/issues/1627)
 * Added an item for creating a new `PDF` form to the application context menu (Linux)
 * Fixed missing Image button in the SmartArt objects of the Picture type
 * Fixed work of the `highlight-toolbar-tab-underline` parameter in the custom themes
@@ -1182,14 +1182,14 @@
 #### Document Editor
 
 * Active header and footer editing mode is no longer taken into consideration
-  in the print preview [#1623](https://github.com/ONLYOFFICE/DesktopEditors/issues/1623)
+  in the print preview [#1623](https://github.com/OnlyOffice/DesktopEditors/issues/1623)
 * Fixed crash when applying an autocorrect command in an expression
 * Fixed crash when copying or cutting an image pasted from the clipboard
 * Fixed crash when pasting a copied list using Keep text only
 * Fixed crash when moving autoshape
 * Fixed crash in TextShaper when using composite input
 * Fixed scroll to target when updating the position of a view port in
-  collaborative editing [#2428](https://github.com/ONLYOFFICE/DocumentServer/issues/2428)
+  collaborative editing [#2428](https://github.com/OnlyOffice/DocumentServer/issues/2428)
 * Added the ability to prevent scrolling to the current position when
   performing any action
 * Fixed review types for added paragraphs
@@ -1202,7 +1202,7 @@
 * Fixed freeze when moving through review changes
 * Implemented display/accept/reject for review change of a table cell
 * Fixed an issue with accepting/rejecting review changes inside
-  a block-level sdt [#2669](https://github.com/ONLYOFFICE/DocumentServer/issues/2669)
+  a block-level sdt [#2669](https://github.com/OnlyOffice/DocumentServer/issues/2669)
 * Fixed an issue with recalculating table
 * Fixed clearing table cells before moving them
 * Fixed cursor moving down when selected table cells
@@ -1221,13 +1221,13 @@
 * Fixed crash in TextShaper after replacing the entered text in the autoshape
 * Fixed crash for some usages of the `IMPORTRANGE` formula
 * Fixed incorrect formula conversion when using a link to a file
-* Fixed crash when opening some `XLSX` files [#2782](https://github.com/ONLYOFFICE/DocumentServer/issues/2782)
-* Fixed inserting an empty column after moving a column with data [#2499](https://github.com/ONLYOFFICE/DocumentServer/issues/2499)
+* Fixed crash when opening some `XLSX` files [#2782](https://github.com/OnlyOffice/DocumentServer/issues/2782)
+* Fixed inserting an empty column after moving a column with data [#2499](https://github.com/OnlyOffice/DocumentServer/issues/2499)
 * Fixed changing line height after applying Merge and Wrap Text, if the text
   extends the cell boundaries
 * Colors of row and column headers when hovering the cursor now correspond
   to color schemes
-* Fixed formula calculation if there is an intersection with a formatted table [#1558](https://github.com/ONLYOFFICE/DesktopEditors/issues/1558)
+* Fixed formula calculation if there is an intersection with a formatted table [#1558](https://github.com/OnlyOffice/DesktopEditors/issues/1558)
 * Fixed formula calculation if they contain named ranges
 * Fixed creating named ranges in languages with ligatures
 * Fixed applying a number format when calculating a formula in the total
@@ -1253,7 +1253,7 @@
   layout and applying Duplicate Slide Master
 * Fixed work of the Play/Pause buttons in the viewing window in the Slideshow mode
 * Fixed layering of objects when they are grouped when opening
-  some `PPTX` files [#2573](https://github.com/ONLYOFFICE/DocumentServer/issues/2573)
+  some `PPTX` files [#2573](https://github.com/OnlyOffice/DocumentServer/issues/2573)
 * Fixed work of internal hyperlinks when using the Next Slide parameters
 * Fixed work of `Enter` / `Space` / `Arrow Right` / `Arrow Left` keys in
   the Slideshow mode
@@ -1271,7 +1271,7 @@
 #### Forms
 
 * Fixed creating a new form via the File menu on macOS
-* Fixed crash when filling in fields in some forms [#2768](https://github.com/ONLYOFFICE/DocumentServer/issues/2768)
+* Fixed crash when filling in fields in some forms [#2768](https://github.com/OnlyOffice/DocumentServer/issues/2768)
 * Prevent a checkbox from toggling when moving it
 * Fixed the conversion of a fixed form to an inline
 * Improved finding anchor position around inline forms
@@ -1313,7 +1313,7 @@
   to a different format
 * Fixed display of presentation theme after exporting some `PPTX` to `PDF/A`
 * Fixed the "Decimal" and "Use 1000 separator" options loss
-  when exporting `XLSX` to `ODS` [#821](https://github.com/ONLYOFFICE/DesktopEditors/issues/821)
+  when exporting `XLSX` to `ODS` [#821](https://github.com/OnlyOffice/DesktopEditors/issues/821)
 
 ## 8.1.0
 
@@ -1620,9 +1620,9 @@
 * Fixed some security issues
 * Fixed opening files with size more than 100 MB
 * Fixed some issues with composite input
-* Fixed issues preventing the application from working on MacOS version < 12.0 ([#1399](https://github.com/ONLYOFFICE/DesktopEditors/issues/1399))
+* Fixed issues preventing the application from working on MacOS version < 12.0 ([#1399](https://github.com/OnlyOffice/DesktopEditors/issues/1399))
 * Fixed working with blocked text fields in dialog boxes
-* Improved quality of the SVG images added to the documents ([#102](https://github.com/ONLYOFFICE/DesktopEditors/issues/102))
+* Improved quality of the SVG images added to the documents ([#102](https://github.com/OnlyOffice/DesktopEditors/issues/102))
 * Fixed the main window hanging when closing the application after
   working with several document tabs
 * Fixed signing of documents/spreadsheets using SVG images
@@ -2640,7 +2640,7 @@ Fix the problem with locking files when opened from mounted network locations (L
 
 #### All Editors
 
-* Support of Private Rooms plugin (ONLYOFFICE Enterprise Edition 11.0 needed as well)
+* Support of Private Rooms plugin (OnlyOffice Enterprise Edition 11.0 needed as well)
 * Possibility to gain access to some features of commercial versions Document Server
 
 ### Fixes
@@ -3253,7 +3253,7 @@ Fix the problem with locking files when opened from mounted network locations (L
 
 #### Document Editor
 
-* Implement an East Asian script and line break in hieroglyphs ([sdkjs#300](https://github.com/ONLYOFFICE/sdkjs/pull/304))
+* Implement an East Asian script and line break in hieroglyphs ([sdkjs#300](https://github.com/OnlyOffice/sdkjs/pull/304))
 * Add hotkey Ctrl+Shift+Num8 - show/hide non printable symbols
 * Support of multi comments balloon (bug #37422)
 * Ability to set Tab Leader symbols
@@ -3299,9 +3299,9 @@ Fix the problem with locking files when opened from mounted network locations (L
 
 #### All editors
 
-* Fix crash on opening files with empty pie charts ([sdkjs#318](https://github.com/ONLYOFFICE/sdkjs/pull/318))
+* Fix crash on opening files with empty pie charts ([sdkjs#318](https://github.com/OnlyOffice/sdkjs/pull/318))
 * Fix undo after copy paste in coedit (bug #37424)
-* Fix problems with some thai symbols (bug #37446) ([sdkjs#297](https://github.com/ONLYOFFICE/sdkjs/pull/297))
+* Fix problems with some thai symbols (bug #37446) ([sdkjs#297](https://github.com/OnlyOffice/sdkjs/pull/297))
 * Hide empty width glyphs fonts in font picker
 * Don't save changes for undo/redo in server build mode
 * Change size of image pasted form html
@@ -3314,12 +3314,12 @@ Fix the problem with locking files when opened from mounted network locations (L
 #### Document Editor
 
 * Fix displaying table after html convert (#37472)
-* Fix adding comment to whole doc (#37425, [DocumentServer#287](https://github.com/ONLYOFFICE/DocumentServer/issues/287))
-  ([sdkjs#319](https://github.com/ONLYOFFICE/sdkjs/pull/319))
-* Fix copy Rich Text Content from table (#37546) ([sdkjs#320](https://github.com/ONLYOFFICE/sdkjs/pull/320))
-* Fix changing labels of Content Control ([sdkjs#296](https://github.com/ONLYOFFICE/sdkjs/pull/296))
-* Fix search text in drawing formats ([sdkjs#292](https://github.com/ONLYOFFICE/sdkjs/pull/292))
-* Fix problem with loading pdf renamed to docx ([sdkjs#295](https://github.com/ONLYOFFICE/sdkjs/pull/295))
+* Fix adding comment to whole doc (#37425, [DocumentServer#287](https://github.com/OnlyOffice/DocumentServer/issues/287))
+  ([sdkjs#319](https://github.com/OnlyOffice/sdkjs/pull/319))
+* Fix copy Rich Text Content from table (#37546) ([sdkjs#320](https://github.com/OnlyOffice/sdkjs/pull/320))
+* Fix changing labels of Content Control ([sdkjs#296](https://github.com/OnlyOffice/sdkjs/pull/296))
+* Fix search text in drawing formats ([sdkjs#292](https://github.com/OnlyOffice/sdkjs/pull/292))
+* Fix problem with loading pdf renamed to docx ([sdkjs#295](https://github.com/OnlyOffice/sdkjs/pull/295))
 * Fix right mouse button menu for TOC (#37241)
 * Fix usage Clip ParaDrawing by line top and bottom
 * Don't clip images in text arts
@@ -3329,9 +3329,9 @@ Fix the problem with locking files when opened from mounted network locations (L
 
 #### Spreadsheet Editor
 
-* Fix formula dependency and file assemble after add col/row ([sdkjs#312](https://github.com/ONLYOFFICE/sdkjs/pull/312))
-* Fix opening specific xlsx file (#37515) ([sdkjs#316](https://github.com/ONLYOFFICE/sdkjs/pull/316))
-* Fix open pivot tables with VALUES ([sdkjs#298](https://github.com/ONLYOFFICE/sdkjs/pull/298))
+* Fix formula dependency and file assemble after add col/row ([sdkjs#312](https://github.com/OnlyOffice/sdkjs/pull/312))
+* Fix opening specific xlsx file (#37515) ([sdkjs#316](https://github.com/OnlyOffice/sdkjs/pull/316))
+* Fix open pivot tables with VALUES ([sdkjs#298](https://github.com/OnlyOffice/sdkjs/pull/298))
 * Add `CONVERT`, `FTEST`, `HYPGEOM.DIST` formulas
 * Add Spanish formula translations
 * Fix right mouse button error (#37330)
@@ -3355,9 +3355,9 @@ Fix the problem with locking files when opened from mounted network locations (L
 
 #### Back-end
 
-* Fix doc users files with table ([core#71](https://github.com/ONLYOFFICE/core/pull/71))
-* Fix opening docx, pptx, rtf, odf usersfiles ([core#75](https://github.com/ONLYOFFICE/core/pull/75))
-  ([core#76](https://github.com/ONLYOFFICE/core/pull/76))
+* Fix doc users files with table ([core#71](https://github.com/OnlyOffice/core/pull/71))
+* Fix opening docx, pptx, rtf, odf usersfiles ([core#75](https://github.com/OnlyOffice/core/pull/75))
+  ([core#76](https://github.com/OnlyOffice/core/pull/76))
 * Fix mac related build problems
 * ppt - fix shape geometry in files from newest ms office
 * Fix font generation
@@ -3572,7 +3572,7 @@ Fix the problem with locking files when opened from mounted network locations (L
 
 #### Spreadsheet Editor
 
-* Fix duplicate text after carriage return [DocumentServer#109](https://github.com/ONLYOFFICE/DocumentServer/issues/109)
+* Fix duplicate text after carriage return [DocumentServer#109](https://github.com/OnlyOffice/DocumentServer/issues/109)
 
 ## 4.3.2
 
@@ -3646,11 +3646,11 @@ Fix the problem with locking files when opened from mounted network locations (L
 
 #### Spreadsheet Editor
 
-* Fixed an issue with absolute reference when inserting a new row (ONLYOFFICE/DocumentServer#41)
-* Fixed an issue with onDocumentStateChange event (ONLYOFFICE/DocumentServer#88)
-* Fixed an issue with formulas translation (ONLYOFFICE/DesktopEditors#23)
-* Fixed an issue with password-protected xlsx (ONLYOFFICE/DesktopEditors#24)
-* Fixed an issue with non-breaking space (ONLYOFFICE/DesktopEditors#26)
+* Fixed an issue with absolute reference when inserting a new row (OnlyOffice/DocumentServer#41)
+* Fixed an issue with onDocumentStateChange event (OnlyOffice/DocumentServer#88)
+* Fixed an issue with formulas translation (OnlyOffice/DesktopEditors#23)
+* Fixed an issue with password-protected xlsx (OnlyOffice/DesktopEditors#24)
+* Fixed an issue with non-breaking space (OnlyOffice/DesktopEditors#26)
 * Fixed an issue with AVERAGEA formula with text format
 * Fixed an issue with broken workbook after list copy (bug #33588)
 * Fixed an issue with formula recalculation by F4 hotkey (bug #32901)
